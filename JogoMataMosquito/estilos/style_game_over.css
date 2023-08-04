@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url("../imagens/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -40px;
+}
+
+main {
+    margin: auto;
+
+    width: 45%;
+    height: 100%;
+}
+
+main .imagem_game_over {
+    width: 100%;
+    height: 450px;
+
+    background-image: url("../imagens/game_over.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.reiniciar {
+    display: block;
+    margin: 10px auto;
+    width: 95px;
+    padding: 10px;
+    font-weight: 400;
+    border-radius: 5px;
+
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(18, 18, 88);
+}

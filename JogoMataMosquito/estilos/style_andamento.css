@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url("../imagens/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position-y: -25px;
+}
+
+.campo {
+    height: 520px;
+    width: 100%;
+}
+
+.info {
+    position: absolute;
+    margin: 10px;
+    bottom: 0;
+    width: 195px;
+    padding: 14px;
+    border-radius: 5px;
+
+    background-color: rgba(255, 255, 255, 0.329);
+}
+
+.info .vidas {
+    margin-bottom: 5px;
+}
+
+.info .vidas img {
+    margin-left: 5px;
+}
+
+.info p {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.mosca {
+    position: absolute;
+
+    width: 80px;
+    height: 80px;
+}
